@@ -1,4 +1,7 @@
-# Snickerstream
+- name: Upload coverage reports to Codecov
+    uses: codecov/codecov-action@v4.0.1
+    with:
+      token: ${{ secrets.CODECOV_TOKEN }}# Snickerstream
 
 Snickerstream is a streaming client for Nintendo 3DS consoles. It's the first and currently only one that supports both NTR and HzMod (the two available homebrew apps for streaming) and that can also receive streams from multiple 3DS consoles to the same PC using NTR. Unlike other clients Snickerstream has been rewritten completely from scratch, allowing it to offer a ton more features with an extremely small resource footprint. Plus, most of said features are shared with both streaming apps so you can use whichever one you want while retaining all your settings!
 
